@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Juego - Tienda de Juegos de Mesa en Chile</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Juego - La mejor tienda de juegos de mesa en Chile. Encuentra los mejores juegos para compartir con familia y amigos.">
+	<meta property="og:title" content="Juego - Tienda de Juegos de Mesa en Chile">
+	<meta property="og:description" content="Los mejores juegos de mesa para momentos inolvidables. Entrega rápida y garantía de diversión.">
+	<meta property="og:image" content="img/logo.webp">
+	<meta property="og:url" content="https://juega-playfun.com">
+	<meta name="twitter:card" content="summary_large_image">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css?_v=20250207140017" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20250207140017">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo logo">
+					<span class="logo-text">
+						<span class="logo-letter">J</span>
+						<span class="logo-letter">u</span>
+						<span class="logo-letter">e</span>
+						<span class="logo-letter">g</span>
+						<span class="logo-letter">o</span>
+						<span class="logo-dot">.</span>
+					</span>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="index.html#hero" class="menu__link">Inicio</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#about" class="menu__link">Sobre Nosotros</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#products" class="menu__link">Juegos</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#newsletter" class="menu__link">Newsletter</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<a href="cart.html" class="header__cart" aria-label="Ver carrito">
+						<i class="fas fa-shopping-cart"></i>
+						<span class="header__cart-counter" data-cart-counter>0</span>
+					</a>
+					<button type="button" class="menu__icon icon-menu" aria-label="Menú">
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<!-- Hero section -->
+			<section class="hero" id="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<div class="hero__tag">
+							<span class="hero__tag-dot"></span>
+							<span>¡Diversión Garantizada!</span>
+						</div>
+						<h1 class="hero__title">
+							Donde los <span class="hero__title-accent">Momentos</span> se Convierten en Recuerdos
+						</h1>
+						<p class="hero__subtitle">
+							Encuentra los mejores juegos de mesa para compartir con familia y amigos. Desde clásicos hasta las últimas novedades.
+						</p>
+						<div class="hero__actions">
+							<a href="#products" class="hero__button button button--primary">
+								Ver Catálogo <i class="fas fa-arrow-right"></i>
+							</a>
+							<div class="hero__stats">
+								<div class="hero__stat">
+									<span class="hero__stat-number">98%</span>
+									<span class="hero__stat-label">Satisfacción</span>
+								</div>
+								<div class="hero__divider"></div>
+								<div class="hero__stat">
+									<span class="hero__stat-number">24h</span>
+									<span class="hero__stat-label">Envío Express</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero__gallery">
+						<div class="hero__gallery-main">
+							<img src="img/hero.webp" alt="Diversión en familia con juegos de mesa" class="hero__gallery-img">
+							<div class="hero__gallery-overlay"></div>
+						</div>
+						<div class="hero__gallery-grid">
+							<div class="hero__gallery-item">
+								<img src="img/game-1.webp" alt="Juegos familiares">
+								<span class="hero__gallery-badge">Top Ventas</span>
+							</div>
+							<div class="hero__gallery-item">
+								<img src="img/game-2.webp" alt="Juegos de estrategia">
+								<span class="hero__gallery-badge">Novedad</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero__shapes">
+					<div class="hero__shape hero__shape--1"></div>
+					<div class="hero__shape hero__shape--2"></div>
+				</div>
+			</section>
+
+			<!-- About section -->
+			<section class="about" id="about">
+				<div class="about__container">
+					<div class="about__grid">
+						<div class="about__content">
+							<div class="about__header">
+								<div class="about__label">Nuestra Historia</div>
+								<h2 class="about__title">Creando Conexiones a Través del Juego</h2>
+								<div class="about__subtitle">Más que una tienda, somos creadores de momentos inolvidables</div>
+							</div>
+							<div class="about__text">
+								<p>En <span class="about__highlight">PlayPlay</span>, creemos que los juegos de mesa son más que entretenimiento: son puentes que conectan personas, generan risas y crean recuerdos duraderos. Cada juego en nuestra colección está seleccionado pensando en crear experiencias únicas para familias y amigos.</p>
+							</div>
+							<div class="about__stats">
+								<div class="about__stat">
+									<div class="about__stat-icon"><i class="fas fa-heart"></i></div>
+									<div class="about__stat-value">98%</div>
+									<div class="about__stat-label">Clientes Felices</div>
+								</div>
+								<div class="about__stat">
+									<div class="about__stat-icon"><i class="fas fa-clock"></i></div>
+									<div class="about__stat-value">24/7</div>
+									<div class="about__stat-label">Atención</div>
+								</div>
+								<div class="about__stat">
+									<div class="about__stat-icon"><i class="fas fa-star"></i></div>
+									<div class="about__stat-value">4.9</div>
+									<div class="about__stat-label">Valoración</div>
+								</div>
+							</div>
+						</div>
+						<div class="about__features">
+							<div class="about__feature">
+								<div class="about__feature-icon">
+									<i class="fas fa.webpt"></i>
+									<div class="about__feature-glow"></div>
+								</div>
+								<div class="about__feature-content">
+									<h3>Experiencias Únicas</h3>
+									<p>Juegos exclusivos y ediciones especiales para coleccionistas</p>
+								</div>
+							</div>
+							<div class="about__feature">
+								<div class="about__feature-icon">
+									<i class="fas fa-truck-fast"></i>
+									<div class="about__feature-glow"></div>
+								</div>
+								<div class="about__feature-content">
+									<h3>Envío Express</h3>
+									<p>Entrega el mismo día en Santiago y 24h en regiones</p>
+								</div>
+							</div>
+							<div class="about__feature">
+								<div class="about__feature-icon">
+									<i class="fas fa-medal"></i>
+									<div class="about__feature-glow"></div>
+								</div>
+								<div class="about__feature-content">
+									<h3>Calidad Premium</h3>
+									<p>Productos originales con garantía extendida</p>
+								</div>
+							</div>
+							<div class="about__feature">
+								<div class="about__feature-icon">
+									<i class="fas fa-gamepad"></i>
+									<div class="about__feature-glow"></div>
+								</div>
+								<div class="about__feature-content">
+									<h3>Club de Juegos</h3>
+									<p>Acceso exclusivo a eventos y torneos mensuales</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Products section -->
+			<section class="products" id="products">
+				<div class="products__container">
+					<h2 class="products__title">Nuestros Juegos</h2>
+					<div class="products__grid" data-products-grid></div>
+				</div>
+			</section>
+
+			<!-- Newsletter section -->
+			<section class="newsletter" id="newsletter">
+				<div class="newsletter__container">
+					<div class="newsletter__content">
+						<div class="newsletter__header">
+							<div class="newsletter__label-wrap">
+								<span class="newsletter__label">Únete a Nosotros</span>
+							</div>
+							<h2 class="newsletter__title">Sé Parte de Nuestra Aventura</h2>
+							<p class="newsletter__text">
+								Descubre un mundo de diversión y beneficios exclusivos
+								<span class="newsletter__highlight">¡15% OFF en juegos de estrategia!</span>
+							</p>
+						</div>
+						<form class="newsletter__form" action="thank-you.html">
+							<div class="newsletter__input-wrapper">
+								<div class="newsletter__input-group">
+									<i class="fas fa-at"></i>
+									<input type="email" class="newsletter__input" placeholder="tu.email@ejemplo.com" required>
+								</div>
+								<button type="submit" class="newsletter__button button button--primary">
+									<span>Comenzar Aventura</span>
+									<i class="fas fa-dice-d20"></i>
+								</button>
+							</div>
+							<div class="newsletter__features">
+								<div class="newsletter__feature">
+									<div class="newsletter__feature-icon">
+										<i class="fas fa-crown"></i>
+									</div>
+									<span>Acceso VIP a Lanzamientos</span>
+								</div>
+								<div class="newsletter__feature">
+									<div class="newsletter__feature-icon">
+										<i class="fas fa-ticket"></i>
+									</div>
+									<span>Eventos Exclusivos</span>
+								</div>
+								<div class="newsletter__feature">
+									<div class="newsletter__feature-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<span>Recompensas Mensuales</span>
+								</div>
+							</div>
+							<p class="newsletter__note">
+								<i class="fas fa-shield-alt"></i>
+								Tu privacidad es importante. Nunca compartiremos tu información.
+							</p>
+						</form>
+					</div>
+					<div class="newsletter__decoration">
+						<div class="newsletter__shape newsletter__shape--1"></div>
+						<div class="newsletter__shape newsletter__shape--2"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Reviews section -->
+			<section class="reviews" id="reviews">
+				<div class="reviews__container">
+					<div class="reviews__header">
+						<div class="reviews__label-wrap">
+							<span class="reviews__label">Opiniones</span>
+							<div class="reviews__rating">
+								<i class="fas fa-star"></i>
+								<span>4.9 / 5.0</span>
+							</div>
+						</div>
+						<h2 class="reviews__title">Lo Que Dicen Nuestros Jugadores</h2>
+						<p class="reviews__subtitle">Únete a miles de jugadores satisfechos que confían en nosotros</p>
+					</div>
+
+					<div class="reviews__stats">
+						<div class="reviews__stat">
+							<div class="reviews__stat-icon">
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<div class="reviews__stat-content">
+								<span class="reviews__stat-value">4.9</span>
+								<span class="reviews__stat-label">Calificación Media</span>
+							</div>
+						</div>
+						<div class="reviews__stat">
+							<div class="reviews__stat-icon">
+								<i class="fas fa-users"></i>
+							</div>
+							<div class="reviews__stat-content">
+								<span class="reviews__stat-value">2.5K+</span>
+								<span class="reviews__stat-label">Clientes Activos</span>
+							</div>
+						</div>
+						<div class="reviews__stat">
+							<div class="reviews__stat-icon">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div class="reviews__stat-content">
+								<span class="reviews__stat-value">98%</span>
+								<span class="reviews__stat-label">Satisfacción</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="reviews__grid">
+						<div class="review-card">
+							<div class="review-card__header">
+								<div class="review-card__profile">
+									<div class="review-card__avatar" style="background-color: var(--primary)">CR</div>
+									<div class="review-card__meta">
+										<h3 class="review-card__name">Catalina Rojas</h3>
+										<span class="review-card__location">Santiago, Chile</span>
+									</div>
+								</div>
+								<div class="review-card__badge">
+									<i class="fas fa-check"></i>
+									<span>Verificado</span>
+								</div>
+							</div>
+							<div class="review-card__rating">
+								<div class="review-card__stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<span class="review-card__date">Febrero 2025</span>
+							</div>
+							<blockquote class="review-card__text">
+								"¡Experiencia increíble! Los juegos llegaron en perfecto estado y el envío fue rapidísimo. El servicio al cliente es excepcional, resolvieron todas mis dudas al instante."
+							</blockquote>
+							<div class="review-card__footer">
+								<button class="review-card__helpful" data-review-id="1" title="Marcar como útil">
+									<i class="far fa-thumbs-up"></i>
+									<span>Útil (<span class="review-card__helpful-count">0</span>)</span>
+								</button>
+								<div class="review-card__tags">
+									<span class="review-card__tag">Envío Rápido</span>
+									<span class="review-card__tag">Calidad Premium</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="review-card">
+							<div class="review-card__header">
+								<div class="review-card__profile">
+									<div class="review-card__avatar" style="background-color: var(--secondary)">MG</div>
+									<div class="review-card__meta">
+										<h3 class="review-card__name">Matías González</h3>
+										<span class="review-card__location">Viña del Mar, Chile</span>
+									</div>
+								</div>
+								<div class="review-card__badge">
+									<i class="fas fa-check"></i>
+									<span>Verificado</span>
+								</div>
+							</div>
+							<div class="review-card__rating">
+								<div class="review-card__stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span class="review-card__date">Febrero 2025</span>
+							</div>
+							<blockquote class="review-card__text">
+								"Gran variedad de juegos y precios competitivos. La experiencia de compra fue muy fluida. Me encantaría ver más juegos de estrategia en el catálogo."
+							</blockquote>
+							<div class="review-card__footer">
+								<button class="review-card__helpful" data-review-id="2" title="Marcar como útil">
+									<i class="far fa-thumbs-up"></i>
+									<span>Útil (<span class="review-card__helpful-count">0</span>)</span>
+								</button>
+								<div class="review-card__tags">
+									<span class="review-card__tag">Buen Precio</span>
+									<span class="review-card__tag">Gran Variedad</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="review-card">
+							<div class="review-card__header">
+								<div class="review-card__profile">
+									<div class="review-card__avatar" style="background-color: var(--accent)">IP</div>
+									<div class="review-card__meta">
+										<h3 class="review-card__name">Isabella Parra</h3>
+										<span class="review-card__location">Concepción, Chile</span>
+									</div>
+								</div>
+								<div class="review-card__badge">
+									<i class="fas fa-check"></i>
+									<span>Verificado</span>
+								</div>
+							</div>
+							<div class="review-card__rating">
+								<div class="review-card__stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<span class="review-card__date">Enero 2025</span>
+							</div>
+							<blockquote class="review-card__text">
+								"Excelente servicio y productos de alta calidad. El envío gratuito sobre $50.000 es un gran beneficio. ¡Definitivamente mi tienda favorita de juegos!"
+							</blockquote>
+							<div class="review-card__footer">
+								<button class="review-card__helpful" data-review-id="3" title="Marcar como útil">
+									<i class="far fa-thumbs-up"></i>
+									<span>Útil (<span class="review-card__helpful-count">0</span>)</span>
+								</button>
+								<div class="review-card__tags">
+									<span class="review-card__tag">Envío Gratis</span>
+									<span class="review-card__tag">Alta Calidad</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__animated-bg">
+				<div class="footer__gradient footer__gradient--1"></div>
+				<div class="footer__gradient footer__gradient--2"></div>
+				<div class="footer__gradient footer__gradient--3"></div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__column">
+						<a href="index.html" class="footer__logo logo">
+							<span class="logo-text">
+								<span class="logo-letter">J</span>
+								<span class="logo-letter">u</span>
+								<span class="logo-letter">e</span>
+								<span class="logo-letter">g</span>
+								<span class="logo-letter">o</span>
+								<span class="logo-dot">.</span>
+							</span>
+						</a>
+						<p class="footer__description">
+							Los mejores juegos de mesa para momentos inolvidables con familia y amigos.
+							Entrega rápida y garantía de diversión en todo Chile.
+						</p>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Navegación</h3>
+						<ul class="footer__list">
+							<li><a href="index.html#hero" class="footer__link">Inicio</a></li>
+							<li><a href="index.html#about" class="footer__link">Sobre Nosotros</a></li>
+							<li><a href="index.html#products" class="footer__link">Juegos</a></li>
+							<li><a href="index.html#newsletter" class="footer__link">Newsletter</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Legal</h3>
+						<ul class="footer__list">
+							<li><a href="privacy.html" class="footer__link">Política de Privacidad</a></li>
+							<li><a href="terms.html" class="footer__link">Términos y Condiciones</a></li>
+							<li><a href="cookie.html" class="footer__link">Política de Cookies</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Contacto</h3>
+						<ul class="footer__contacts">
+							<li class="footer__contact">
+								<i class="fas fa-map-marker-alt"></i>
+								<span>Santiago, Chile</span>
+							</li>
+							<li class="footer__contact">
+								<i class="fas fa-envelope"></i>
+								<a href="mailto:info@juega-playfun.com">info@juega-playfun.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<p class="footer__copyright"> 2025 Juego. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Cookie Consent -->
+		<div class="cookie-consent" id="cookieConsent">
+			<div class="cookie-consent__content">
+				<p class="cookie-consent__text">
+					Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Si continúa navegando
+					usted acepta el uso de cookies.
+				</p>
+				<div class="cookie-consent__buttons">
+					<button class="button button--primary" id="acceptCookies">Aceptar</button>
+					<button class="button button--outline" id="declineCookies">Rechazar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250207140017"></script>
+</body>
+
+</html>
